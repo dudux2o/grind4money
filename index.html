@@ -1,1 +1,98 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda Accord</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #1f497d;
+            padding: 20px 0;
+            text-align: center;
+            color: #fff;
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-gap: 20px;
+        }
+        .card {
+            background-color: #fff;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #eee;
+        }
+        .card-content {
+            padding: 20px;
+        }
+        .card-content h2 {
+            margin-top: 0;
+        }
+        .card-content p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Honda Accord</h1>
+    </header>
+    <div class="container">
+        <div class="grid">
+            <div class="card">
+                <img src="accord1.jpg" alt="Honda Accord">
+                <div class="card-content">
+                    <h2>Honda Accord LX</h2>
+                    <p>The Honda Accord LX comes with a sleek design and advanced safety features.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="accord2.jpg" alt="Honda Accord">
+                <div class="card-content">
+                    <h2>Honda Accord Sport</h2>
+                    <p>Experience the thrill of driving with the Honda Accord Sport. Its powerful engine and sporty design make every ride exciting.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="accord3.jpg" alt="Honda Accord">
+                <div class="card-content">
+                    <h2>Honda Accord Hybrid</h2>
+                    <p>Go green with the Honda Accord Hybrid. Enjoy excellent fuel efficiency without compromising on performance.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="accord4.jpg" alt="Honda Accord">
+                <div class="card-content">
+                    <h2>Honda Accord Touring</h2>
+                    <p>Indulge in luxury with the Honda Accord Touring. Its premium features redefine comfort and style.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
